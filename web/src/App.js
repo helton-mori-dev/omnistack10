@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
 
@@ -33,7 +34,52 @@ function App() {
         </form>
       </aside>
       <main>
-        
+        <ul>
+        <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/12644707?v=4" alt="Helton"/>
+                <div className="user-info">
+                  <strong>Helton</strong>
+                  <span>React, React Native</span>
+                  <p>Dev na advise</p>
+                  <a href="https://github.com/helton-mori-dev">Acessar perfil do github</a>
+                </div>
+            </header>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/12644707?v=4" alt="Helton"/>
+                <div className="user-info">
+                  <strong>Helton</strong>
+                  <span>React, React Native</span>
+                  <p>Dev na advise</p>
+                  <a href="https://github.com/helton-mori-dev">Acessar perfil do github</a>
+                </div>
+            </header>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/12644707?v=4" alt="Helton"/>
+                <div className="user-info">
+                  <strong>Helton</strong>
+                  <span>React, React Native</span>
+                  <p>Dev na advise</p>
+                  <a href="https://github.com/helton-mori-dev">Acessar perfil do github</a>
+                </div>
+            </header>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/12644707?v=4" alt="Helton"/>
+                <div className="user-info">
+                  <strong>Helton</strong>
+                  <span>React, React Native</span>
+                  <p>Dev na advise</p>
+                  <a href="https://github.com/helton-mori-dev">Acessar perfil do github</a>
+                </div>
+            </header>
+          </li>
+        </ul>
       </main>
     </div>
   );
